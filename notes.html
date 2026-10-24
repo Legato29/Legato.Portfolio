@@ -1,0 +1,2312 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Legato Li 的專業與業餘學習筆記">
+    <title>Learning Notes | Legato Li</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="notes-page">
+    <div class="scroll-progress"></div><a class="skip-link" href="#main-content">跳到主要內容</a><header class="site-header"><div class="container nav-wrapper"><a class="brand" href="index.html">Legato Li</a><button class="menu-toggle" type="button" aria-label="開啟導覽選單" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span><span></span></button><nav id="primary-navigation" class="main-nav"><a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="reading.html">Reading</a><a class="active" href="notes.html">Learning Notes</a></nav></div></header><main id="main-content">
+        <section class="notes-hero"><div class="container notes-hero-layout"><div><p class="eyebrow">Knowledge Base</p><h1>Learning Notes</h1><p>將專業能力與生活興趣整理成可搜尋、可展開、可持續累積的個人知識庫</p></div><div class="notes-stats"><div><b>05</b><span>專業主題</span></div><div><b>02</b><span>業餘主題</span></div><div><b>02</b><span>完整手冊</span></div></div></div></section><section class="notes-toolbar"><div class="container notes-toolbar-inner"><label class="note-search"><span>搜尋筆記</span><input id="note-search" type="search" placeholder="輸入名詞，例如 RAG、輪轉、Power BI"></label><div class="note-filters"><button class="note-filter active" data-note-filter="all" aria-pressed="true">全部</button><button class="note-filter" data-note-filter="professional" aria-pressed="false">專業學習</button><button class="note-filter" data-note-filter="personal" aria-pressed="false">業餘學習</button></div></div></section><section class="section notes-catalog">
+            <div class="container">
+                <section class="note-group" data-note-group="professional">
+                    <div class="notes-section-heading"><p class="eyebrow">Professional</p><h2>專業學習</h2></div><div class="note-card-grid">
+                        <article class="note-card has-content" data-note-category="professional" data-note-keywords="AI 應用規劃師 初級 中級 RAG Agent"><div><p class="note-card-tag">CERTIFICATION</p><h3>AI 應用規劃師</h3><p>初級重點整理已完整收錄，中級區域預留後續擴充</p></div><button class="note-open" data-note-target="ai-planner">開啟筆記</button></article>
+                        <article class="note-card" data-note-category="professional" data-note-keywords="AI RAG Agent MCP Prompt"><div><p class="note-card-tag">AI</p><h3>AI 筆記</h3><p>彙整生成式 AI、RAG、Agent、MCP、Prompt Engineering 與 Evals</p></div><span class="note-status">持續整理</span></article>
+                        <article class="note-card" data-note-category="professional" data-note-keywords="名言佳句"><div><p class="note-card-tag">QUOTES</p><h3>名言佳句</h3><p>收藏能協助思考、決策與自我管理的句子</p></div><span class="note-status">待新增</span></article>
+                        <article class="note-card" data-note-category="professional" data-note-keywords="軟體 Power BI Excel SQL HTML CSS JavaScript"><div><p class="note-card-tag">SOFTWARE</p><h3>軟體相關</h3><p>Power BI、Excel、SQL、HTML、CSS、JavaScript 與自動化工具筆記</p></div><span class="note-status">持續整理</span></article>
+                        <article class="note-card" data-note-category="professional" data-note-keywords="數位轉型 Business Analysis 流程"><div><p class="note-card-tag">TRANSFORMATION</p><h3>數位轉型筆記</h3><p>整理 Business Analysis、流程優化、需求治理與 Solution Design</p></div><span class="note-status">持續整理</span></article>
+                    </div>
+                </section>
+                <section class="note-group" data-note-group="personal"><div class="notes-section-heading"><p class="eyebrow">Personal Interests</p><h2>業餘學習</h2></div><div class="note-card-grid"><article class="note-card has-content personal" data-note-category="personal" data-note-keywords="羽球 雙打 走位 輪轉"><div><p class="note-card-tag">BADMINTON</p><h3>羽球筆記</h3><p>完整收錄雙打技術、輪轉走位、戰術與新手八週訓練路徑</p></div><button class="note-open" data-note-target="badminton">開啟筆記</button></article><article class="note-card" data-note-category="personal" data-note-keywords="鋼琴 音樂"><div><p class="note-card-tag">PIANO</p><h3>鋼琴筆記</h3><p>記錄練習曲目、技巧拆解、節奏與階段學習成果</p></div><span class="note-status">待新增</span></article></div></section>
+            </div>
+        </section>
+        <section id="ai-planner" class="note-reader" hidden>
+            <div class="note-reader-shell">
+                <header><div><p class="eyebrow">AI PLANNER</p><h2>AI 應用規劃師</h2><p>初級重點整理｜名詞、判斷規則與情境題</p></div><button class="note-close" type="button">關閉 ×</button></header><div class="reader-tabs"><button class="reader-tab active" data-level="junior">初級</button><button class="reader-tab" data-level="intermediate">中級</button></div><div class="reader-content junior-content">
+                    <section class="note-section">
+                        <h3>一、先了解這兩科在考什麼</h3>
+                    </section>
+                    <section class="note-section">
+                        <h4>科目一：人工智慧基礎概論</h4>
+                        <p>主要分成四大區塊：</p>
+                        <p>人工智慧概念與 AI 治理</p>
+                        <p>資料處理與分析</p>
+                        <p>機器學習</p>
+                        <p>鑑別式 AI 與生成式 AI</p>
+                        <p>從歷屆題目來看，考試並不只考名詞定義，更多是給你一個企業情境，要求判斷：</p>
+                        <p>該用哪一種學習方法</p>
+                        <p>該用哪一種模型</p>
+                        <p>該用哪個評估指標</p>
+                        <p>問題發生在資料、模型、治理還是部署階段</p>
+                        <p>哪個方案最符合隱私、公平性與可解釋性要求</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>科目二：生成式 AI 應用與規劃</h4>
+                        <p>主要分成三大區塊：</p>
+                        <p>No-Code／Low-Code</p>
+                        <p>生成式 AI 工具、提示工程、RAG、AI Agent</p>
+                        <p>AI 導入評估、成本效益與風險管理</p>
+                        <p>近幾次考題已明顯增加：</p>
+                        <p>RAG 與 Fine-tuning 的選擇</p>
+                        <p>AI Agent、MCP、Tool Calling、Solution Graph</p>
+                        <p>Prompt Injection、Guardrails</p>
+                        <p>Model Routing、Thinking Budget</p>
+                        <p>Vibe Coding、Agentic Coding</p>
+                        <p>人在迴圈內與企業治理</p>
+                        <p>因此，科目二不能只讀早期學習指引，必須搭配 115 年最新公告試題一起準備。</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>二、科目一重點整理</h3>
+                    </section>
+                    <section class="note-section">
+                        <h4>1. AI 的基本分類</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>依能力範圍分類</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>類型</th>
+                                    <th>核心概念</th>
+                                    <th>常見題目線索</th>
+                                </tr>
+                                <tr>
+                                    <td>弱人工智慧 Narrow AI</td>
+                                    <td>只會處理特定任務</td>
+                                    <td>客服、瑕疵檢測、流失預測、推薦系統</td>
+                                </tr>
+                                <tr>
+                                    <td>通用人工智慧 AGI</td>
+                                    <td>能跨領域達到接近人類的一般智慧</td>
+                                    <td>題目多半作為錯誤選項</td>
+                                </tr>
+                                <tr>
+                                    <td>超級人工智慧 ASI</td>
+                                    <td>整體智慧全面超越人類</td>
+                                    <td>目前仍屬概念或假設</td>
+                                </tr>
+                                <tr>
+                                    <td>具身人工智慧 Embodied AI</td>
+                                    <td>透過實體身體、感測器與環境互動</td>
+                                    <td>機器人、自駕裝置</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>「自動生成貼文、門禁人臉辨識、客戶流失模型」雖然功能不同，但都只處理特定任務，所以都是弱人工智慧。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>易錯點</h5>
+                        <p>能自然對話，不等於具有 AGI。</p>
+                        <p>通過圖靈測試，只能表示對話表現近似人類，不代表專業決策一定正確，也不代表具有可解釋性。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>2. 四種機器學習方式</h4>
+                        <p>這是科目一最重要、最常考的區塊。</p>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>學習方式</th>
+                                    <th>有無標註</th>
+                                    <th>核心線索</th>
+                                    <th>典型應用</th>
+                                </tr>
+                                <tr>
+                                    <td>監督式學習</td>
+                                    <td>有</td>
+                                    <td>已知正確答案、標籤</td>
+                                    <td>分類、迴歸</td>
+                                </tr>
+                                <tr>
+                                    <td>非監督式學習</td>
+                                    <td>無</td>
+                                    <td>自動找結構、分群</td>
+                                    <td>客群分群、異常探索</td>
+                                </tr>
+                                <tr>
+                                    <td>半監督式學習</td>
+                                    <td>少量有、大量無</td>
+                                    <td>標註資料不足</td>
+                                    <td>醫療影像、瑕疵分類</td>
+                                </tr>
+                                <tr>
+                                    <td>強化學習</td>
+                                    <td>不靠固定標籤</td>
+                                    <td>行動、環境、獎勵、試錯</td>
+                                    <td>路線規劃、遊戲、自駕</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>快速判斷口訣</h5>
+                        <p>看到「已標註」：先想監督式學習。</p>
+                        <p>看到「沒有標籤，要自動分群」：非監督式學習。</p>
+                        <p>看到「少量標註＋大量未標註」：半監督式學習。</p>
+                        <p>看到「獎勵、懲罰、環境互動、反覆試錯」：強化學習。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配 1</h5>
+                        <p>工廠已將設備資料標為「正常」或「故障」，要預測新設備是否故障。</p>
+                        <p>答案：監督式學習，因為已有明確標籤。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配 2</h5>
+                        <p>客戶行為資料沒有客群標籤，希望自動分成不同消費族群。</p>
+                        <p>答案：非監督式學習中的 Clustering。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配 3</h5>
+                        <p>有 2,000 張已標註水果影像和 8,000 張未標註影像，希望降低標註成本。</p>
+                        <p>答案：半監督式學習，先利用標註資料建立基礎，再利用未標註資料改善模型。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配 4</h5>
+                        <p>AI 根據使用者點擊與購買結果，持續調整推薦策略。</p>
+                        <p>答案：強化學習。其中「推薦已知熱門商品」是利用 Exploitation，「嘗試新商品」是探索 Exploration。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>3. 分類、迴歸、分群與異常偵測</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>任務</th>
+                                    <th>輸出</th>
+                                    <th>例子</th>
+                                </tr>
+                                <tr>
+                                    <td>分類 Classification</td>
+                                    <td>類別</td>
+                                    <td>是否詐欺、是否流失</td>
+                                </tr>
+                                <tr>
+                                    <td>迴歸 Regression</td>
+                                    <td>連續數值</td>
+                                    <td>房價、銷量、用電量</td>
+                                </tr>
+                                <tr>
+                                    <td>分群 Clustering</td>
+                                    <td>自動形成群組</td>
+                                    <td>客群區隔</td>
+                                </tr>
+                                <tr>
+                                    <td>異常偵測 Anomaly Detection</td>
+                                    <td>找出偏離正常模式的資料</td>
+                                    <td>設備異常、可疑交易</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>判斷技巧</h5>
+                        <p>「是否」通常是分類。</p>
+                        <p>「多少」通常是迴歸。</p>
+                        <p>「自動分成幾群」是分群。</p>
+                        <p>「偏離正常模式」是異常偵測。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>預測明日大樓總用電量 kWh：</p>
+                        <p>任務：迴歸</p>
+                        <p>模型：XGBoost Regressor</p>
+                        <p>指標：MAPE</p>
+                        <p>預測下一季稻米產量：</p>
+                        <p>學習方式：監督式學習</p>
+                        <p>模型：線性迴歸</p>
+                        <p>指標：MAE</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>4. 常見模型與使用場景</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>模型</th>
+                                    <th>核心用途</th>
+                                    <th>考試關鍵字</th>
+                                </tr>
+                                <tr>
+                                    <td>線性迴歸</td>
+                                    <td>預測連續數值</td>
+                                    <td>房價、銷量</td>
+                                </tr>
+                                <tr>
+                                    <td>邏輯迴歸</td>
+                                    <td>二元分類、輸出機率</td>
+                                    <td>是否違約、是否罹病</td>
+                                </tr>
+                                <tr>
+                                    <td>決策樹</td>
+                                    <td>分類或迴歸、易解釋</td>
+                                    <td>規則、樹狀判斷</td>
+                                </tr>
+                                <tr>
+                                    <td>隨機森林</td>
+                                    <td>多棵決策樹投票或平均</td>
+                                    <td>穩定、降低單棵樹過擬合</td>
+                                </tr>
+                                <tr>
+                                    <td>KNN</td>
+                                    <td>依最近鄰居投票</td>
+                                    <td>距離、K 個鄰居</td>
+                                </tr>
+                                <tr>
+                                    <td>K-Means</td>
+                                    <td>非監督式分群</td>
+                                    <td>K 個群組</td>
+                                </tr>
+                                <tr>
+                                    <td>SVM</td>
+                                    <td>尋找最大間隔超平面</td>
+                                    <td>高維、小樣本</td>
+                                </tr>
+                                <tr>
+                                    <td>CNN</td>
+                                    <td>影像局部特徵</td>
+                                    <td>影像、刮痕、瑕疵</td>
+                                </tr>
+                                <tr>
+                                    <td>RNN</td>
+                                    <td>序列資料</td>
+                                    <td>前一時點影響下一時點</td>
+                                </tr>
+                                <tr>
+                                    <td>LSTM</td>
+                                    <td>長期序列依賴</td>
+                                    <td>長期記憶、改善梯度消失</td>
+                                </tr>
+                                <tr>
+                                    <td>Autoencoder</td>
+                                    <td>壓縮重建、異常偵測</td>
+                                    <td>重建誤差、正常資料</td>
+                                </tr>
+                                <tr>
+                                    <td>VAE</td>
+                                    <td>學習資料分布並生成樣本</td>
+                                    <td>潛在空間、編碼器與解碼器</td>
+                                </tr>
+                                <tr>
+                                    <td>GAN</td>
+                                    <td>生成器對抗鑑別器</td>
+                                    <td>生成新影像、模式崩潰</td>
+                                </tr>
+                                <tr>
+                                    <td>Diffusion</td>
+                                    <td>從雜訊逐步去雜訊</td>
+                                    <td>高品質圖片、影片生成</td>
+                                </tr>
+                                <tr>
+                                    <td>Transformer</td>
+                                    <td>自注意力、長距離文字關聯</td>
+                                    <td>LLM、長篇文字</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>必背配對</h5>
+                        <p>影像瑕疵：CNN</p>
+                        <p>時間序列：RNN／LSTM</p>
+                        <p>長期依賴：LSTM</p>
+                        <p>長篇文本：Transformer</p>
+                        <p>少數異常且標籤不足：Autoencoder／VAE</p>
+                        <p>高品質圖像生成：Diffusion</p>
+                        <p>GAN 只產生少數相似結果：Mode Collapse</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>5. 資料型態</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>資料型態</th>
+                                    <th>特性</th>
+                                    <th>例子</th>
+                                </tr>
+                                <tr>
+                                    <td>結構化</td>
+                                    <td>固定欄列與欄位</td>
+                                    <td>SQL、MySQL、標準表格</td>
+                                </tr>
+                                <tr>
+                                    <td>半結構化</td>
+                                    <td>有標籤，但欄位可變</td>
+                                    <td>JSON、XML</td>
+                                </tr>
+                                <tr>
+                                    <td>非結構化</td>
+                                    <td>無固定欄列</td>
+                                    <td>圖片、影像、音訊、自由文字、掃描 PDF</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>智慧手環資料具有標籤，但不同裝置上傳的欄位不完全相同。</p>
+                        <p>答案：半結構化資料。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>易錯點</h5>
+                        <p>CSV 在不同教材或情境中可能被視為結構化或半結構化。考試時應看題目描述：</p>
+                        <p>強調固定欄列：偏結構化</p>
+                        <p>強調有標記但格式彈性：偏半結構化</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>6. 資料清理與特徵工程</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>遺漏值填補</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>情況</th>
+                                    <th>適合方法</th>
+                                </tr>
+                                <tr>
+                                    <td>數值接近對稱分布</td>
+                                    <td>平均數</td>
+                                </tr>
+                                <tr>
+                                    <td>高度偏態、有離群值</td>
+                                    <td>中位數</td>
+                                </tr>
+                                <tr>
+                                    <td>類別型欄位</td>
+                                    <td>眾數</td>
+                                </tr>
+                                <tr>
+                                    <td>連續時間序列</td>
+                                    <td>前後值插補、線性插補</td>
+                                </tr>
+                                <tr>
+                                    <td>缺失比例過高且無法修復</td>
+                                    <td>考慮刪除</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>年收入呈高度右偏，且有 5% 遺漏值，最適合填補中位數，因為不容易受極端高收入影響。 [ | PDF]</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>正規化與標準化</h5>
+                    </section>
+                    <section class="note-section">
+                        <h6>Min-Max Normalization</h6>
+                        <p>通常將數值縮放到 0～1。</p>
+                    </section>
+                    <section class="note-section">
+                        <h6>Z-Score Standardization</h6>
+                        <p>將資料轉成相對於平均數的標準差距離。</p>
+                        <p>例如平均消費 30,000、標準差 5,000，某會員消費 40,000：</p>
+                        <p>代表高於平均數 2 個標準差。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>重要陷阱</h5>
+                        <p>Z-Score 不保證資料變成常態分布。</p>
+                        <p>Z-Score 不會把數值限制在 0～1。</p>
+                        <p>標準化的統計量只能使用訓練資料計算，再套用到測試資料，否則可能發生資料洩漏。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>7. 資料洩漏 Data Leakage</h4>
+                        <p>資料洩漏是指模型在訓練階段取得了實際預測時不可能知道的資訊，導致測試結果看起來很好，但上線後失效。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>典型陷阱</h5>
+                        <p>月底預測會員下個月是否流失，卻把「會員下個月是否仍有消費」放入特徵。</p>
+                        <p>這是未來資料，預測當下不可能取得，因此屬於資料洩漏。正確特徵必須是預測當下已知的資料。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>8. 統計觀念</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>平均數、中位數、眾數</h5>
+                        <p>平均數：容易受極端值影響。</p>
+                        <p>中位數：較不受極端值影響。</p>
+                        <p>眾數：出現次數最多，適合類別資料。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>偏態判斷</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>關係</th>
+                                    <th>分布</th>
+                                </tr>
+                                <tr>
+                                    <td>平均數 &gt; 中位數</td>
+                                    <td>正偏、右偏</td>
+                                </tr>
+                                <tr>
+                                    <td>平均數 &lt; 中位數</td>
+                                    <td>負偏、左偏</td>
+                                </tr>
+                                <tr>
+                                    <td>平均數 ≈ 中位數</td>
+                                    <td>可能接近對稱</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>考題中平均分數 72、中位數 85，表示少數極低分把平均數拉低，因此是負偏態／左偏。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>圖表用途</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>圖表</th>
+                                    <th>用途</th>
+                                </tr>
+                                <tr>
+                                    <td>直方圖</td>
+                                    <td>單一連續變數的分布</td>
+                                </tr>
+                                <tr>
+                                    <td>散佈圖</td>
+                                    <td>兩個數值變數的關係</td>
+                                </tr>
+                                <tr>
+                                    <td>折線圖</td>
+                                    <td>隨時間變化的趨勢</td>
+                                </tr>
+                                <tr>
+                                    <td>長條圖</td>
+                                    <td>比較類別</td>
+                                </tr>
+                                <tr>
+                                    <td>箱型圖</td>
+                                    <td>中位數、四分位距、離群值</td>
+                                </tr>
+                                <tr>
+                                    <td>熱圖</td>
+                                    <td>相關性或矩陣資料</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>9. 分類模型評估指標</h4>
+                        <p>先記住混淆矩陣的四個元素：</p>
+                        <p>TP：實際有，預測有</p>
+                        <p>FP：實際無，預測有</p>
+                        <p>FN：實際有，預測無</p>
+                        <p>TN：實際無，預測無</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>Precision</h5>
+                        <p>預測為正類的人中，有多少是真的。</p>
+                        <p>適合：不希望誤抓。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>Recall</h5>
+                        <p>實際正類中，有多少被找出來。</p>
+                        <p>適合：不希望漏掉。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>F1-score</h5>
+                        <p>Precision 與 Recall 的綜合平衡。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>癌症篩檢，重視不要漏診：Recall。</p>
+                        <p>瑕疵品比例很低，不能只看 Accuracy：F1-score。</p>
+                        <p>詐欺案件比例極少：Precision、Recall、F1 通常比 Accuracy 更有價值。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>10. AI 治理與可解釋性</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>AI 治理常考原則</h5>
+                        <p>公平性</p>
+                        <p>透明性</p>
+                        <p>可解釋性</p>
+                        <p>隱私與資料安全</p>
+                        <p>問責性</p>
+                        <p>人類監督</p>
+                        <p>可申訴與人工複核</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>高風險決策題目的基本判斷</h5>
+                        <p>如果 AI 決策會重大影響：</p>
+                        <p>核貸</p>
+                        <p>理賠</p>
+                        <p>醫療</p>
+                        <p>補助資格</p>
+                        <p>招募</p>
+                        <p>公共政策</p>
+                        <p>通常應優先考慮：</p>
+                        <p>人在迴圈內</p>
+                        <p>公平性檢測</p>
+                        <p>可解釋機制</p>
+                        <p>申訴與人工複核</p>
+                        <p>決策紀錄與稽核</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>常見 XAI 工具</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>工具</th>
+                                    <th>用途</th>
+                                </tr>
+                                <tr>
+                                    <td>LIME</td>
+                                    <td>解釋單一案例附近的模型行為</td>
+                                </tr>
+                                <tr>
+                                    <td>SHAP</td>
+                                    <td>分配各特徵對單一預測的正負貢獻</td>
+                                </tr>
+                                <tr>
+                                    <td>Saliency Map</td>
+                                    <td>標示影像或文字中影響預測的重要區域</td>
+                                </tr>
+                                <tr>
+                                    <td>PDP</td>
+                                    <td>觀察某特徵對模型輸出的整體趨勢</td>
+                                </tr>
+                                <tr>
+                                    <td>Counterfactual Explanation</td>
+                                    <td>改變哪些條件可能改變結果</td>
+                                </tr>
+                                <tr>
+                                    <td>Permutation Importance</td>
+                                    <td>打亂特徵後，觀察效能下降多少</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>快速記憶</h5>
+                        <p>LIME：附近模擬</p>
+                        <p>SHAP：貢獻分配</p>
+                        <p>Saliency：熱點區域</p>
+                        <p>PDP：全體趨勢</p>
+                        <p>Counterfactual：如果改變什麼，結果會不同</p>
+                        <p>Permutation：打亂後掉多少分</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>11. 資料隱私技術</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>核心概念</th>
+                                </tr>
+                                <tr>
+                                    <td>去識別化</td>
+                                    <td>移除或轉換可識別資訊</td>
+                                </tr>
+                                <tr>
+                                    <td>假名化</td>
+                                    <td>用代碼替代身分，但可能保留對照關係</td>
+                                </tr>
+                                <tr>
+                                    <td>k-匿名</td>
+                                    <td>每人至少與其他 k-1 人不可區分</td>
+                                </tr>
+                                <tr>
+                                    <td>差分隱私</td>
+                                    <td>在統計結果加入雜訊</td>
+                                </tr>
+                                <tr>
+                                    <td>聯邦學習</td>
+                                    <td>資料留在本地，只交換模型更新</td>
+                                </tr>
+                                <tr>
+                                    <td>同態加密</td>
+                                    <td>資料保持加密狀態仍可計算</td>
+                                </tr>
+                                <tr>
+                                    <td>傳輸加密</td>
+                                    <td>保護資料傳輸，防止竊聽或竄改</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>常考情境對照</h5>
+                        <p>多次統計查詢，怕推回個人：差分隱私。</p>
+                        <p>多家醫院不能集中原始資料：聯邦學習。</p>
+                        <p>加密狀態還能計算：同態加密。</p>
+                        <p>避免郵遞區號、性別交叉識別：k-匿名。</p>
+                        <p>各機構本地訓練，只分享參數：聯邦學習。</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>三、科目二重點整理</h3>
+                    </section>
+                    <section class="note-section">
+                        <h4>1. No-Code、Low-Code、AutoML</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>類型</th>
+                                    <th>使用方式</th>
+                                    <th>適合對象</th>
+                                </tr>
+                                <tr>
+                                    <td>No-Code</td>
+                                    <td>圖形化、拖拉、幾乎不用程式碼</td>
+                                    <td>非技術使用者</td>
+                                </tr>
+                                <tr>
+                                    <td>Low-Code</td>
+                                    <td>圖形化＋少量程式碼</td>
+                                    <td>具基礎技術能力者</td>
+                                </tr>
+                                <tr>
+                                    <td>AutoML</td>
+                                    <td>自動進行特徵處理、模型選擇、調參</td>
+                                    <td>缺乏 ML 專家的團隊</td>
+                                </tr>
+                                <tr>
+                                    <td>Pro-Code</td>
+                                    <td>傳統完整程式開發</td>
+                                    <td>高度客製、效能要求高</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>優勢</h5>
+                        <p>快速開發</p>
+                        <p>降低技術門檻</p>
+                        <p>提升業務與 IT 協作</p>
+                        <p>縮短上市時間</p>
+                        <p>快速驗證 PoC 或 MVP</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>限制</h5>
+                        <p>客製化能力有限</p>
+                        <p>供應商鎖定 Vendor Lock-in</p>
+                        <p>可能不支援外部自訂模型</p>
+                        <p>極低延遲或高吞吐量情境受限</p>
+                        <p>治理不足時容易產生重複應用與資料定義不一致</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題原則</h5>
+                        <p>題目若出現「完全取代 IT」、「不需維護」、「自動符合所有法規」、「任何舊系統都能直接整合」，通常都是過度絕對化的錯誤敘述。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>2. 工作流程元件</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>元件</th>
+                                    <th>功能</th>
+                                </tr>
+                                <tr>
+                                    <td>Router／Branch</td>
+                                    <td>依條件分流</td>
+                                </tr>
+                                <tr>
+                                    <td>Filter</td>
+                                    <td>只讓符合條件的資料通過</td>
+                                </tr>
+                                <tr>
+                                    <td>Iterator</td>
+                                    <td>逐筆處理清單中的資料</td>
+                                </tr>
+                                <tr>
+                                    <td>Aggregator</td>
+                                    <td>等多個結果完成後合併</td>
+                                </tr>
+                                <tr>
+                                    <td>Formatter</td>
+                                    <td>轉換資料格式</td>
+                                </tr>
+                                <tr>
+                                    <td>Webhook</td>
+                                    <td>事件發生時主動通知</td>
+                                </tr>
+                                <tr>
+                                    <td>API</td>
+                                    <td>系統間主動請求資料或功能</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>同時向倉儲和物流商查詢，再把兩個結果合併成一個回覆：</p>
+                        <p>答案：Aggregator。</p>
+                        <p>退款意圖且金額大於 10,000 元才通知主管：</p>
+                        <p>答案：Router／Branching。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>3. 提示工程</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>核心概念</th>
+                                </tr>
+                                <tr>
+                                    <td>Zero-shot</td>
+                                    <td>不提供範例</td>
+                                </tr>
+                                <tr>
+                                    <td>Few-shot</td>
+                                    <td>提供少量範例</td>
+                                </tr>
+                                <tr>
+                                    <td>Role／Context Prompting</td>
+                                    <td>設定角色、情境、背景</td>
+                                </tr>
+                                <tr>
+                                    <td>Chain-of-Thought</td>
+                                    <td>要求逐步推理</td>
+                                </tr>
+                                <tr>
+                                    <td>Tree-of-Thought</td>
+                                    <td>探索多條推理路徑</td>
+                                </tr>
+                                <tr>
+                                    <td>Graph Prompting</td>
+                                    <td>表達多個條件與非線性關係</td>
+                                </tr>
+                                <tr>
+                                    <td>Prompt Chaining</td>
+                                    <td>將任務拆成多個提示步驟</td>
+                                </tr>
+                                <tr>
+                                    <td>Self-consistency</td>
+                                    <td>多次推理後選擇較一致答案</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>常考判斷</h5>
+                        <p>「提供三個過去範例」：Few-shot。</p>
+                        <p>「逐步分析後再結論」：Chain-of-Thought。</p>
+                        <p>「比較多個方案路徑」：Tree-of-Thought。</p>
+                        <p>「庫存、物流、價格彼此交互影響」：Graph Prompting。</p>
+                        <p>「訂單解析 → 異常分類 → 補償方案」：Prompt Chaining。</p>
+                        <p>「扮演具有 15 年經驗的客服」：角色或情境設定提示。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>最新考題的重要提醒</h5>
+                        <p>單一 Prompt 塞入太多：</p>
+                        <p>角色</p>
+                        <p>格式</p>
+                        <p>語氣</p>
+                        <p>安全要求</p>
+                        <p>多步驟流程</p>
+                        <p>可能因指令層級過多或彼此競爭而降低遵循一致性。此時應：</p>
+                        <p>拆成提示鏈</p>
+                        <p>區分必要條件與偏好條件</p>
+                        <p>為中間輸出設定格式</p>
+                        <p>加上驗證與 Guardrails</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>4. Temperature 與生成參數</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>Temperature</h5>
+                        <p>低溫度：輸出穩定、保守、一致。</p>
+                        <p>高溫度：輸出多樣、具創意、隨機性高。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>使用情境</h5>
+                        <p>法規、客服標準答案：低溫度。</p>
+                        <p>廣告文案、創意發想：較高溫度。</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>重要陷阱</h5>
+                        <p>Temperature 只能調整生成的隨機性，不能：</p>
+                        <p>更新知識</p>
+                        <p>修正錯誤文件</p>
+                        <p>解決資料偏見</p>
+                        <p>增加上下文長度</p>
+                        <p>保證答案正確</p>
+                        <p>同樣提示詞每次文案幾乎一樣，要增加多樣性，應調高 Temperature。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>5. RAG、Fine-tuning、Prompt Engineering</h4>
+                        <p>這是兩科共同的超高頻考點。</p>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>需求</th>
+                                    <th>優先技術</th>
+                                </tr>
+                                <tr>
+                                    <td>最新知識、法規、內部文件</td>
+                                    <td>RAG</td>
+                                </tr>
+                                <tr>
+                                    <td>引用來源、可追溯</td>
+                                    <td>RAG</td>
+                                </tr>
+                                <tr>
+                                    <td>固定語氣、格式、行為模式</td>
+                                    <td>Fine-tuning</td>
+                                </tr>
+                                <tr>
+                                    <td>快速、低成本調整單次任務</td>
+                                    <td>Prompt Engineering</td>
+                                </tr>
+                                <tr>
+                                    <td>少量資料、低 GPU 資源</td>
+                                    <td>LoRA 等 PEFT</td>
+                                </tr>
+                                <tr>
+                                    <td>同時要最新知識與固定語氣</td>
+                                    <td>RAG＋Prompt 或 Fine-tuning</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>核心判斷</h5>
+                    </section>
+                    <section class="note-section">
+                        <h6>選 RAG 的情況</h6>
+                        <p>知識經常更新</p>
+                        <p>需要引用來源</p>
+                        <p>不想重新訓練</p>
+                        <p>查詢企業內部知識</p>
+                        <p>查法規、保單條款、最新商品資訊</p>
+                    </section>
+                    <section class="note-section">
+                        <h6>選 Fine-tuning 的情況</h6>
+                        <p>需要固定行為</p>
+                        <p>需要一致的語氣和格式</p>
+                        <p>要處理大量重複任務</p>
+                        <p>已有大量經審核的高品質範例</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>每日更新的股價與財報：RAG。</p>
+                        <p>固定的合規格式與專業口吻：Fine-tuning 或 Prompt Engineering。</p>
+                        <p>最新促銷資訊＋品牌語氣：RAG 提供最新資訊，Prompt 控制風格。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>6. RAG 架構與元件</h4>
+                        <p>基本流程：</p>
+                        <p>文件蒐集</p>
+                        <p>文件清理</p>
+                        <p>Chunking 切分</p>
+                        <p>Embedding 向量化</p>
+                        <p>存入向量資料庫</p>
+                        <p>依使用者問題檢索</p>
+                        <p>Reranking 重排序</p>
+                        <p>提供給 LLM</p>
+                        <p>生成答案與來源</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>元件對照</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>元件</th>
+                                    <th>作用</th>
+                                </tr>
+                                <tr>
+                                    <td>Chunking</td>
+                                    <td>將文件切成適合檢索的片段</td>
+                                </tr>
+                                <tr>
+                                    <td>Embedding</td>
+                                    <td>將文字轉成語意向量</td>
+                                </tr>
+                                <tr>
+                                    <td>Vector Database</td>
+                                    <td>儲存向量並進行語意搜尋</td>
+                                </tr>
+                                <tr>
+                                    <td>Query Expansion</td>
+                                    <td>擴充同義詞與相關詞</td>
+                                </tr>
+                                <tr>
+                                    <td>Reranker</td>
+                                    <td>重排已檢索到的結果</td>
+                                </tr>
+                                <tr>
+                                    <td>Semantic Cache</td>
+                                    <td>快取語意相似查詢</td>
+                                </tr>
+                                <tr>
+                                    <td>Incremental Index</td>
+                                    <td>只更新異動文件，不必全部重建</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>文件已經成功被找出，但只排第 8 名，系統只提供前 3 名給 LLM。</p>
+                        <p>答案：應使用 Reranker，因為問題不是「找不到」，而是「排序不夠前面」。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>7. AI Agent</h4>
+                        <p>一般生成式 AI 工具主要是「收到輸入，生成輸出」。</p>
+                        <p>AI Agent 則能：</p>
+                        <p>理解目標</p>
+                        <p>規劃任務</p>
+                        <p>選擇工具</p>
+                        <p>執行動作</p>
+                        <p>觀察結果</p>
+                        <p>動態調整策略</p>
+                        <p>持續執行直到完成目標</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>Agent 與傳統自動化差異</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>傳統自動化</th>
+                                    <th>AI Agent</th>
+                                </tr>
+                                <tr>
+                                    <td>固定規則</td>
+                                    <td>動態規劃</td>
+                                </tr>
+                                <tr>
+                                    <td>固定步驟</td>
+                                    <td>可依執行結果調整</td>
+                                </tr>
+                                <tr>
+                                    <td>事前定義所有分支</td>
+                                    <td>可判斷下一步</td>
+                                </tr>
+                                <tr>
+                                    <td>創新與彈性較低</td>
+                                    <td>可推理並調用工具</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>ReAct</h5>
+                        <p>Reasoning and Acting，讓 Agent：</p>
+                        <p>思考</p>
+                        <p>採取行動</p>
+                        <p>觀察工具結果</p>
+                        <p>再思考</p>
+                        <p>決定下一步</p>
+                        <p>適合「資訊不足，需要動態改變查詢方向」的任務。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>8. MCP、RAG 與 Skill</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>核心定位</th>
+                                </tr>
+                                <tr>
+                                    <td>RAG</td>
+                                    <td>補充外部知識</td>
+                                </tr>
+                                <tr>
+                                    <td>MCP</td>
+                                    <td>標準化連接外部工具與資料來源</td>
+                                </tr>
+                                <tr>
+                                    <td>Tool Calling</td>
+                                    <td>讓模型呼叫函數或 API</td>
+                                </tr>
+                                <tr>
+                                    <td>Skill</td>
+                                    <td>封裝可重複使用的 AI 能力</td>
+                                </tr>
+                                <tr>
+                                    <td>A2A</td>
+                                    <td>Agent 之間的溝通與協作</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>一句話記憶</h5>
+                        <p>RAG：去查什麼知識</p>
+                        <p>MCP：如何標準化連接工具</p>
+                        <p>Tool Calling：實際呼叫功能</p>
+                        <p>Skill：把能力封裝起來重複使用</p>
+                        <p>A2A：代理彼此合作</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考題搭配</h5>
+                        <p>保險 AI Agent 要查保單資料庫，又要執行理賠文件核對：</p>
+                        <p>MCP：提供統一的外部資料與工具存取。</p>
+                        <p>Skill：封裝文件核對的語意理解與專業判斷能力。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>9. Solution Graph 與 Knowledge Graph</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>類型</th>
+                                    <th>用途</th>
+                                </tr>
+                                <tr>
+                                    <td>Solution Graph</td>
+                                    <td>描述本次任務的步驟、依賴與決策路徑</td>
+                                </tr>
+                                <tr>
+                                    <td>Knowledge Graph</td>
+                                    <td>長期保存實體、概念與關係知識</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>Solution Graph 不會：</p>
+                        <p>取代 LLM</p>
+                        <p>保證自動修正所有錯誤</p>
+                        <p>完全消除幻覺</p>
+                        <p>預先寫死所有推理結果</p>
+                        <p>它的作用是讓任務結構化、分階段執行與驗證。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>10. 生成式 AI 風險與防護</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>常見風險</h5>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>風險</th>
+                                    <th>說明</th>
+                                </tr>
+                                <tr>
+                                    <td>Hallucination</td>
+                                    <td>生成看似合理但錯誤的內容</td>
+                                </tr>
+                                <tr>
+                                    <td>Prompt Injection</td>
+                                    <td>以指令覆蓋系統原始限制</td>
+                                </tr>
+                                <tr>
+                                    <td>Indirect Prompt Injection</td>
+                                    <td>把惡意指令藏在文件、網頁或履歷中</td>
+                                </tr>
+                                <tr>
+                                    <td>Jailbreak</td>
+                                    <td>透過多輪誘導繞過限制</td>
+                                </tr>
+                                <tr>
+                                    <td>Prompt Leakage</td>
+                                    <td>套出系統提示內容</td>
+                                </tr>
+                                <tr>
+                                    <td>Data Leakage</td>
+                                    <td>敏感資料或未來資訊洩漏</td>
+                                </tr>
+                                <tr>
+                                    <td>Bias</td>
+                                    <td>對不同群體產生不公平結果</td>
+                                </tr>
+                                <tr>
+                                    <td>Data Poisoning</td>
+                                    <td>惡意或錯誤資料污染訓練流程</td>
+                                </tr>
+                                <tr>
+                                    <td>Model Memorization</td>
+                                    <td>模型記住並重新輸出敏感資料</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h5>Guardrails 應包含</h5>
+                        <p>輸入驗證</p>
+                        <p>系統提示保護</p>
+                        <p>輸出內容檢查</p>
+                        <p>敏感資訊遮罩</p>
+                        <p>最小權限</p>
+                        <p>人工複核</p>
+                        <p>操作日誌</p>
+                        <p>異常監控</p>
+                        <p>高風險案件轉人工</p>
+                        <p>僅靠關鍵字黑名單或一個 System Prompt 通常不足，較完整的答案通常是「多層防禦」。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>11. AI 導入流程</h4>
+                        <p>建議掌握以下順序：</p>
+                        <p>明確定義業務問題</p>
+                        <p>設定目標與 KPI</p>
+                        <p>評估資料、人才、技術與基礎設施</p>
+                        <p>評估方案與供應商</p>
+                        <p>確定優先順序</p>
+                        <p>進行 PoC</p>
+                        <p>驗證品質、效能、安全與整合</p>
+                        <p>小規模試點</p>
+                        <p>教育訓練與正式部署</p>
+                        <p>持續監控、更新與改善</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>考試判斷原則</h5>
+                        <p>第一步通常不是：</p>
+                        <p>買軟體</p>
+                        <p>買 GPU</p>
+                        <p>先訓練模型</p>
+                        <p>先大規模部署</p>
+                        <p>而是定義問題、目標與成功標準。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>12. PoC、MVP 與正式部署</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>目的</th>
+                                </tr>
+                                <tr>
+                                    <td>PoC</td>
+                                    <td>驗證技術是否可行</td>
+                                </tr>
+                                <tr>
+                                    <td>MVP</td>
+                                    <td>以最少功能驗證實際價值</td>
+                                </tr>
+                                <tr>
+                                    <td>Pilot</td>
+                                    <td>小規模真實環境測試</td>
+                                </tr>
+                                <tr>
+                                    <td>Production</td>
+                                    <td>正式部署與持續維運</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>PoC 重點：</p>
+                        <p>回答品質</p>
+                        <p>業務需求匹配</p>
+                        <p>系統整合可行性</p>
+                        <p>技術限制</p>
+                        <p>初步風險</p>
+                        <p>完整的長期治理制度通常不是 PoC 最主要的工作，而是後續正式導入的重要項目。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>13. TCO、ROI 與 Token Economics</h4>
+                    </section>
+                    <section class="note-section">
+                        <h5>TCO</h5>
+                        <p>總體擁有成本不只包含 API 費用，還包括：</p>
+                        <p>模型與軟體</p>
+                        <p>雲端或硬體</p>
+                        <p>儲存</p>
+                        <p>系統整合</p>
+                        <p>資料整理</p>
+                        <p>人力</p>
+                        <p>教育訓練</p>
+                        <p>維護</p>
+                        <p>資安與法遵</p>
+                        <p>模型監控與更新</p>
+                        <p>供應商轉換成本</p>
+                    </section>
+                    <section class="note-section">
+                        <h5>ROI</h5>
+                    </section>
+                    <section class="note-section">
+                        <h5>回收期</h5>
+                    </section>
+                    <section class="note-section">
+                        <h5>Token Economics</h5>
+                        <p>主要考量：</p>
+                        <p>輸入 Token</p>
+                        <p>輸出 Token</p>
+                        <p>每 Token 單價</p>
+                        <p>呼叫次數</p>
+                        <p>Prompt 長度</p>
+                        <p>檢索內容長度</p>
+                        <p>Thinking Token</p>
+                        <p>快取與批次處理策略</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>四、歷屆考題反覆出現的高頻主題</h3>
+                        <p>依你提供的 4 梯次、共 8 份公告試題整理，建議優先順序如下：</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第一級：一定要熟</h4>
+                        <p>監督式、非監督式、半監督式、強化學習</p>
+                        <p>分類、迴歸、分群、異常偵測</p>
+                        <p>Precision、Recall、F1、MSE、MAE</p>
+                        <p>CNN、RNN、LSTM、Transformer</p>
+                        <p>RAG 與 Fine-tuning</p>
+                        <p>No-Code、Low-Code、AutoML</p>
+                        <p>AI 治理、公平性、隱私、人工複核</p>
+                        <p>Prompt Injection 與 Guardrails</p>
+                        <p>AI Agent、MCP、Tool Calling</p>
+                        <p>資料洩漏、資料漂移、概念漂移</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第二級：容易成為鑑別題</h4>
+                        <p>LIME、SHAP、Saliency Map、PDP</p>
+                        <p>k-匿名、差分隱私、聯邦學習、同態加密</p>
+                        <p>Zero-shot、Few-shot、CoT、ToT、Graph Prompting</p>
+                        <p>GAN、VAE、Diffusion</p>
+                        <p>Temperature 與 Context Window</p>
+                        <p>Solution Graph 與 Knowledge Graph</p>
+                        <p>Batch Inference 與 Real-time Inference</p>
+                        <p>TCO、ROI、Token Economics</p>
+                        <p>Vibe Coding 與 Agentic Coding</p>
+                        <p>Model Routing 與 Thinking Budget</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第三級：理解即可</h4>
+                        <p>Flash Attention</p>
+                        <p>MoE</p>
+                        <p>Knowledge Distillation</p>
+                        <p>Quantization</p>
+                        <p>Pruning</p>
+                        <p>LoRA／PEFT</p>
+                        <p>GRPO／RFT／RLHF</p>
+                        <p>CLIP</p>
+                        <p>Titans Memory</p>
+                        <p>AutoSkill</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>五、最常見的錯誤選項特徵</h3>
+                        <p>看到以下字眼要提高警覺：</p>
+                        <p>完全取代</p>
+                        <p>一定正確</p>
+                        <p>保證不會產生幻覺</p>
+                        <p>不需要人工審核</p>
+                        <p>不須考慮法規</p>
+                        <p>不需要維護</p>
+                        <p>所有舊系統都能直接串接</p>
+                        <p>資料公開就可以任意使用</p>
+                        <p>模型越大一定越好</p>
+                        <p>參數越多推論越快</p>
+                        <p>溫度降低就能修正知識錯誤</p>
+                        <p>RAG 可以保證答案正確</p>
+                        <p>有引用來源就代表一定正確</p>
+                        <p>考試的正確答案通常比較平衡，會同時考慮：</p>
+                        <p>技術可行性</p>
+                        <p>資料品質</p>
+                        <p>人工監督</p>
+                        <p>成本效益</p>
+                        <p>資安與法遵</p>
+                        <p>系統整合</p>
+                        <p>持續維護</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>六、給你的建議讀書順序</h3>
+                        <p>你有 Power BI、SQL、Excel、Power Automate 與 AI 應用經驗，因此「資料處理、流程自動化、Low-Code、AI 導入規劃」應該會比較容易。需要額外加強的是模型原理、評估指標、隱私技術與新型 Agent 架構。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第一階段：先建立基礎架構</h4>
+                        <p>建議依序讀：</p>
+                        <p>四種機器學習</p>
+                        <p>分類／迴歸／分群／異常偵測</p>
+                        <p>常見模型用途</p>
+                        <p>資料處理與評估指標</p>
+                        <p>RAG／Fine-tuning／Prompt Engineering</p>
+                        <p>AI Agent／MCP／Tool Calling</p>
+                        <p>AI 治理與風險</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第二階段：依主題做歷屆題</h4>
+                        <p>不要一開始就整份從第 1 題寫到第 50 題，而是：</p>
+                        <p>先做所有「機器學習類型」題目</p>
+                        <p>再做所有「評估指標」題目</p>
+                        <p>再做所有「RAG／Fine-tuning」題目</p>
+                        <p>再做所有「AI Agent／MCP」題目</p>
+                        <p>最後才進行完整模擬測驗</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>第三階段：建立錯題簿</h4>
+                        <p>每題至少記錄：</p>
+                        <p>題目關鍵字</p>
+                        <p>我的答案</p>
+                        <p>正確答案</p>
+                        <p>錯誤原因</p>
+                        <p>核心判斷規則</p>
+                        <p>易混淆選項</p>
+                        <p>再複習日期</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>七、入門自我測驗</h3>
+                        <p>先不要看答案，試著完成以下 10 題。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>題目</h4>
+                        <p>已標示「正常／故障」的設備資料，適合哪種學習方式？</p>
+                        <p>無客群標籤，希望自動把會員分成數個群體，適合哪種方法？</p>
+                        <p>預測房屋成交價格，屬於分類還是迴歸？</p>
+                        <p>癌症篩檢最怕漏掉病人，應優先關注 Precision 還是 Recall？</p>
+                        <p>影像刮痕辨識通常優先使用 CNN 還是 RNN？</p>
+                        <p>法規每天更新，而且回答要能引用來源，適合 RAG 還是 Fine-tuning？</p>
+                        <p>提供三個標準回答範例，要求模型照相同方式回答，屬於哪種提示方法？</p>
+                        <p>文件已被檢索到，但排名太後面沒有提供給 LLM，應使用 Query Expansion 還是 Reranker？</p>
+                        <p>各醫院資料不能離開本地，但希望共同訓練模型，適合哪種技術？</p>
+                        <p>攻擊指令藏在上傳的履歷或外部網頁中，屬於直接還是間接 Prompt Injection？</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>答案</h4>
+                        <p>監督式學習</p>
+                        <p>非監督式學習中的分群</p>
+                        <p>迴歸</p>
+                        <p>Recall</p>
+                        <p>CNN</p>
+                        <p>RAG</p>
+                        <p>Few-shot Prompting</p>
+                        <p>Reranker</p>
+                        <p>聯邦學習</p>
+                        <p>間接 Prompt Injection</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>八、你現階段最適合的準備策略</h3>
+                        <p>你現在還沒看過教材，先不要追求把兩本指引全部背完。建議採用：</p>
+                        <p>觀念 40%＋題目 50%＋錯題整理 10%</p>
+                        <p>核心原則是：</p>
+                        <p>先知道每個技術「解決什麼問題」。</p>
+                        <p>再學會從情境關鍵字判斷答案。</p>
+                        <p>最後處理容易混淆的細節。</p>
+                        <p>每做錯一題，整理成一句可重複使用的判斷規則。</p>
+                        <p>例如：</p>
+                        <p>
+                            需要即時更新知識且不重新訓練，優先 RAG。
+                            需要穩定改變語氣、格式或行為模式，考慮 Fine-tuning。
+                            正類不能漏掉，優先 Recall。
+                            已找到文件但排名太後，使用 Reranker。
+                            高風險決策，保留 Human-in-the-loop。
+                        </p>
+                        <p>這樣會比逐頁背誦有效很多，也比較符合目前公告試題偏重情境判斷的出題方式。</p>
+                    </section>
+                </div><div class="reader-content intermediate-content" hidden><div class="empty-note"><h3>中級筆記</h3><p>目前尚未提供中級內容</p></div></div>
+            </div>
+        </section>
+        <section id="badminton" class="note-reader" hidden>
+            <div class="note-reader-shell">
+                <header><div><p class="eyebrow">BADMINTON DOUBLES</p><h2>羽球雙打完整技術與走位手冊</h2><p>發接發｜輪轉走位｜全場球路｜假動作｜戰術與訓練</p></div><button class="note-close" type="button">關閉 ×</button></header><div class="reader-content">
+                    <p>羽球雙打國手級完整技術與走位手冊</p>
+                    <p>發接發｜輪轉走位｜全場球路｜假動作｜戰術與訓練</p>
+                    <p>使用說明：本手冊採「情境 → 擊球 → 擊球後走位 → 搭檔補位」編排，並新增新手完整訓練系統，涵蓋握拍、發球、接發、平抽、高遠、網前、吊球、殺球、輪轉及八週進階路徑。</p>
+                    <section class="note-section">
+                        <h3>一、雙打比賽的核心系統</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>核心</th>
+                                    <th>執行標準</th>
+                                    <th>常見錯誤</th>
+                                </tr>
+                                <tr>
+                                    <td>搶下壓</td>
+                                    <td>能撲不放，能推不挑；平球壓低擊球點。</td>
+                                    <td>無壓力挑高。</td>
+                                </tr>
+                                <tr>
+                                    <td>前三拍</td>
+                                    <td>發球有落點、接發搶高點、第三拍預判。</td>
+                                    <td>發完站著。</td>
+                                </tr>
+                                <tr>
+                                    <td>隊形</td>
+                                    <td>下壓前後、起高左右、平球斜前斜後。</td>
+                                    <td>固定各守半場。</td>
+                                </tr>
+                                <tr>
+                                    <td>連續進攻</td>
+                                    <td>重殺、點殺、殺中、吊球混用。</td>
+                                    <td>每球全力殺。</td>
+                                </tr>
+                                <tr>
+                                    <td>中間責任</td>
+                                    <td>正手、喊聲優先；前位管高球，後位管過頭。</td>
+                                    <td>兩人都搶或都讓。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>二、雙打走位與輪轉完整系統</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>情境</th>
+                                    <th>自己走位</th>
+                                    <th>搭檔補位</th>
+                                </tr>
+                                <tr>
+                                    <td>短發後</td>
+                                    <td>發球者舉拍壓前，封回放及直線推。</td>
+                                    <td>後方偏中，抓推球與挑球。</td>
+                                </tr>
+                                <tr>
+                                    <td>偷後場後</td>
+                                    <td>發球者立即退至一側轉防守。</td>
+                                    <td>橫移另一側形成左右。</td>
+                                </tr>
+                                <tr>
+                                    <td>接發放網</td>
+                                    <td>接發者留前封網。</td>
+                                    <td>居中偏後準備進攻。</td>
+                                </tr>
+                                <tr>
+                                    <td>接發推球</td>
+                                    <td>接發者順勢前壓。</td>
+                                    <td>補中後場。</td>
+                                </tr>
+                                <tr>
+                                    <td>我方殺吊</td>
+                                    <td>前位封網，後位持續下壓。</td>
+                                    <td>依直線、斜線同步側移。</td>
+                                </tr>
+                                <tr>
+                                    <td>我方挑高</td>
+                                    <td>立即左右分開。</td>
+                                    <td>直線者略前，斜線者略後。</td>
+                                </tr>
+                                <tr>
+                                    <td>擋網成功</td>
+                                    <td>擋球者跟進網前。</td>
+                                    <td>另一人轉後形成進攻。</td>
+                                </tr>
+                                <tr>
+                                    <td>搭檔被拉出場</td>
+                                    <td>擊球者回內側。</td>
+                                    <td>另一人先補中再補邊。</td>
+                                </tr>
+                                <tr>
+                                    <td>前位被挑過頭</td>
+                                    <td>前位退後處理。</td>
+                                    <td>原後位向前封網。</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p>先補中間再補邊線；來不及完成標準輪轉時，先形成不重疊且無大洞的隊形。</p>
+                        <p>前場者不回頭看搭檔；擊球者回拍、回重心、回戰術位置。</p>
+                        <p>輪轉時不從搭檔揮拍側前方穿越，並用「我、你、換、守、壓」提早溝通。</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>三、前場與中前場球路細節</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>球路</th>
+                                    <th>技術細節</th>
+                                    <th>走位</th>
+                                </tr>
+                                <tr>
+                                    <td>撲球</td>
+                                    <td>高於網帶時短促向前下壓，手指瞬間收緊。</td>
+                                    <td>前腳煞車，拍回胸前，繼續封網。</td>
+                                </tr>
+                                <tr>
+                                    <td>抹球／抹撲</td>
+                                    <td>球略高於網帶，以拍面橫向擦帶，抹撲再加小幅下壓。</td>
+                                    <td>留前；被帶出邊線時搭檔收中。</td>
+                                </tr>
+                                <tr>
+                                    <td>直線放網</td>
+                                    <td>拍面托送、控制貼網下墜。</td>
+                                    <td>留前抓回放。</td>
+                                </tr>
+                                <tr>
+                                    <td>搓球</td>
+                                    <td>收搓或展搓使球旋轉；動作小、接觸薄。</td>
+                                    <td>拍留前，避免站死。</td>
+                                </tr>
+                                <tr>
+                                    <td>勾對角</td>
+                                    <td>準備似直線放，最後以手指改拍面送斜線。</td>
+                                    <td>向中路回收，防直線反推。</td>
+                                </tr>
+                                <tr>
+                                    <td>推球</td>
+                                    <td>高點短動作推直線、中路或身體。</td>
+                                    <td>推完前壓，搭檔補後。</td>
+                                </tr>
+                                <tr>
+                                    <td>提拉米蘇</td>
+                                    <td>以提拉準備製造短暫延遲，再變線推、放或勾；非正式名詞。</td>
+                                    <td>出球後前壓，搭檔補中後。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>四、中場平抽擋、接殺與過渡</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>細節</th>
+                                    <th>銜接</th>
+                                </tr>
+                                <tr>
+                                    <td>正反手平抽</td>
+                                    <td>擊球點在身前，前臂旋轉＋手指發力，動作短。</td>
+                                    <td>抽完快回拍，壓住才前進。</td>
+                                </tr>
+                                <tr>
+                                    <td>擋直線網前</td>
+                                    <td>借力卸力，使球剛過網。</td>
+                                    <td>擋球者跟前，搭檔補後。</td>
+                                </tr>
+                                <tr>
+                                    <td>擋斜線</td>
+                                    <td>較晚觸球，以拍面角度變線。</td>
+                                    <td>搭檔收中防直線。</td>
+                                </tr>
+                                <tr>
+                                    <td>反抽中路</td>
+                                    <td>腰部以上短促加速，打兩人交界。</td>
+                                    <td>整體向前壓。</td>
+                                </tr>
+                                <tr>
+                                    <td>防守挑球</td>
+                                    <td>低點由下向前上送深。</td>
+                                    <td>立刻形成左右防守。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>五、後場球路與攻擊細節</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>球路</th>
+                                    <th>技術與用途</th>
+                                    <th>前場配合</th>
+                                </tr>
+                                <tr>
+                                    <td>重殺</td>
+                                    <td>高點完整加速，攻半場球與明顯空檔。</td>
+                                    <td>封直線及中路。</td>
+                                </tr>
+                                <tr>
+                                    <td>點殺</td>
+                                    <td>縮短揮拍、角度陡、恢復快，攻身體或中路。</td>
+                                    <td>向前抓浮球。</td>
+                                </tr>
+                                <tr>
+                                    <td>殺直線／中路</td>
+                                    <td>直線球程短；中路製造搶讓。</td>
+                                    <td>依殺球側略偏移。</td>
+                                </tr>
+                                <tr>
+                                    <td>殺斜線</td>
+                                    <td>高擊球點且平衡良好時用作變化。</td>
+                                    <td>向開放區調整。</td>
+                                </tr>
+                                <tr>
+                                    <td>劈殺</td>
+                                    <td>殺球外觀、較薄切帶，使球較慢但陡。</td>
+                                    <td>準備反方向回球。</td>
+                                </tr>
+                                <tr>
+                                    <td>直線吊球</td>
+                                    <td>與高遠／殺球相同準備，觸球減速下墜。</td>
+                                    <td>可觸發直線跟進輪轉。</td>
+                                </tr>
+                                <tr>
+                                    <td>對角切球</td>
+                                    <td>上手完整準備，最後改拍面切向對角。</td>
+                                    <td>守開放直線與中路。</td>
+                                </tr>
+                                <tr>
+                                    <td>高遠／平高</td>
+                                    <td>高遠用於解圍；平高快速越過前場。</td>
+                                    <td>起高立刻轉防守。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>六、發球、接發與前三拍</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>項目</th>
+                                    <th>執行重點</th>
+                                </tr>
+                                <tr>
+                                    <td>短發</td>
+                                    <td>反手短動作、低過網、落近前發球線；中線可壓縮角度。</td>
+                                </tr>
+                                <tr>
+                                    <td>偷後場／平快發</td>
+                                    <td>準備與短發一致；出手後立刻轉防守。</td>
+                                </tr>
+                                <tr>
+                                    <td>接短發</td>
+                                    <td>能撲則撲；高點推中、推直或放網；低點才挑。</td>
+                                </tr>
+                                <tr>
+                                    <td>接偷後場</td>
+                                    <td>保持中性重心，到位下壓，不到位平高或吊球。</td>
+                                </tr>
+                                <tr>
+                                    <td>第三拍</td>
+                                    <td>回放由發球者抓；推球由後方搭檔迎前；挑球轉前後進攻。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>七、實戰戰術組合與路線設計</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>組合</th>
+                                    <th>流程</th>
+                                    <th>目的</th>
+                                </tr>
+                                <tr>
+                                    <td>短發中線＋封直線</td>
+                                    <td>發中線→發球者封前→搭檔截中後場</td>
+                                    <td>建立第三拍。</td>
+                                </tr>
+                                <tr>
+                                    <td>推中路＋前壓</td>
+                                    <td>接發推交界→接發者跟前→搭檔補後</td>
+                                    <td>製造搶讓。</td>
+                                </tr>
+                                <tr>
+                                    <td>殺直線＋前封</td>
+                                    <td>後場連殺直線→前場封回擋</td>
+                                    <td>連續進攻。</td>
+                                </tr>
+                                <tr>
+                                    <td>重殺＋對角切</td>
+                                    <td>先直線重殺鎖重心→相同準備切對角</td>
+                                    <td>方向欺騙。</td>
+                                </tr>
+                                <tr>
+                                    <td>擋直線＋轉攻</td>
+                                    <td>接殺擋網→擋球者跟前→搭檔留後</td>
+                                    <td>守轉攻。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>八、搭檔溝通、中間球與安全</h3>
+                        <p>喊聲固定且提早：我、你、出、前、後、換、守、壓。</p>
+                        <p>中間球採正手優先、喊聲優先、前位管高球、後位管過頭球。</p>
+                        <p>失誤後快速重置，不以搶球補償；前場不回頭，避免撞拍或被搭檔擊中。</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>九、常見錯誤與立即修正</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>錯誤</th>
+                                    <th>修正口令</th>
+                                </tr>
+                                <tr>
+                                    <td>發完站著</td>
+                                    <td>球出、拍到、腳動。</td>
+                                </tr>
+                                <tr>
+                                    <td>接發只挑</td>
+                                    <td>高點推放、低點才挑。</td>
+                                </tr>
+                                <tr>
+                                    <td>各守半場</td>
+                                    <td>下壓前後、起高左右。</td>
+                                </tr>
+                                <tr>
+                                    <td>每球全力殺</td>
+                                    <td>七成連殺、重殺收尾。</td>
+                                </tr>
+                                <tr>
+                                    <td>被動打斜線</td>
+                                    <td>被動直線、主動變線。</td>
+                                </tr>
+                                <tr>
+                                    <td>防守貼底線</td>
+                                    <td>站中後場、迎前接球。</td>
+                                </tr>
+                                <tr>
+                                    <td>假動作太早</td>
+                                    <td>準備一致、最後才變。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>十、專項訓練菜單</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>訓練</th>
+                                    <th>做法</th>
+                                    <th>品質指標</th>
+                                </tr>
+                                <tr>
+                                    <td>短發＋第三拍</td>
+                                    <td>隨機回放、推、挑，發球方完成第三拍。</td>
+                                    <td>發完立即移動。</td>
+                                </tr>
+                                <tr>
+                                    <td>接發四選一</td>
+                                    <td>放網、推直、推中、挑深。</td>
+                                    <td>依接觸高度決策。</td>
+                                </tr>
+                                <tr>
+                                    <td>抹撲多球</td>
+                                    <td>手拋球由高至低、定點至左右。</td>
+                                    <td>短動作、不觸網。</td>
+                                </tr>
+                                <tr>
+                                    <td>殺吊切組合</td>
+                                    <td>直線殺、點殺中、對角切隨機。</td>
+                                    <td>每拍可回位。</td>
+                                </tr>
+                                <tr>
+                                    <td>防守轉攻</td>
+                                    <td>接殺後反抽或擋網跟前。</td>
+                                    <td>兩拍內形成前後。</td>
+                                </tr>
+                                <tr>
+                                    <td>輪轉半場</td>
+                                    <td>殺直線跟進、前位退後，再隨機。</td>
+                                    <td>不碰撞、不留中洞。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>十一、新手完整訓練系統</h3>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.1 新手訓練原則</h4>
+                        <p>先穩定再加速：先能以正確握拍、擊球點與拍面完成連續回球，再增加力量、速度及變化。</p>
+                        <p>由近到遠、由定點到移動：先半場與定點餵球，再加入一步、兩步及全場移動。</p>
+                        <p>由單一技術到組合：每種技術先單練，再接「擊球後回位」與下一拍，不只練一拍。</p>
+                        <p>以成功率控制難度：若連續失誤，縮短距離、降低速度或改用手拋餵球；穩定後再升級。</p>
+                        <p>每次練習都包含準備姿勢、分腿墊步、回拍與回位，避免只顧擊球不顧腳步。</p>
+                        <p>先學可實戰的基本球：短發、接發推放、平抽、挑球、吊球、殺球及基本輪轉，再加入高階假動作。</p>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.2 每次練習的標準結構</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>內容</th>
+                                    <th>執行方式</th>
+                                </tr>
+                                <tr>
+                                    <td>暖身與啟動</td>
+                                    <td>關節活動、低強度移動、肩胛與手腕啟動</td>
+                                    <td>由慢到快；先跑動、側移、弓箭步，再做空拍揮拍。</td>
+                                </tr>
+                                <tr>
+                                    <td>手感建立</td>
+                                    <td>顛球、對牆輕抽、近網控制</td>
+                                    <td>重點是放鬆握拍、拍面穩定與擊球點在身前。</td>
+                                </tr>
+                                <tr>
+                                    <td>主題技術</td>
+                                    <td>當日選1至2項，例如發球＋平抽</td>
+                                    <td>先定點分解，再連續多球，最後加入落點與情境。</td>
+                                </tr>
+                                <tr>
+                                    <td>組合與走位</td>
+                                    <td>技術＋回位＋下一拍</td>
+                                    <td>例如短發→第三拍；殺球→上網；擋網→前壓。</td>
+                                </tr>
+                                <tr>
+                                    <td>條件對抗</td>
+                                    <td>限制球路或得分條件</td>
+                                    <td>把練習轉為判斷，例如接發不得無壓力挑高。</td>
+                                </tr>
+                                <tr>
+                                    <td>收操紀錄</td>
+                                    <td>低強度回球、伸展、記錄成果</td>
+                                    <td>記錄穩定落點、最常見失誤及下次修正口令。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.3 握拍、球感與準備姿勢</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>訓練</th>
+                                    <th>怎麼練</th>
+                                    <th>進階方式</th>
+                                    <th>檢核</th>
+                                </tr>
+                                <tr>
+                                    <td>正反手換握</td>
+                                    <td>拍頭朝上，以手指在V字握與拇指握間快速切換</td>
+                                    <td>加入教練口令、閉眼感受及揮拍後換握</td>
+                                    <td>手掌不握死；換拍面時拍頭不掉。</td>
+                                </tr>
+                                <tr>
+                                    <td>正反面顛球</td>
+                                    <td>先低高度連續顛球，再正反面交替</td>
+                                    <td>邊走邊顛、改變高度與方向</td>
+                                    <td>球落點保持在身體前方。</td>
+                                </tr>
+                                <tr>
+                                    <td>接球緩衝</td>
+                                    <td>搭檔手拋球，用拍面承接並卸力</td>
+                                    <td>由正手、反手到左右移動</td>
+                                    <td>拍面穩定，不用手臂硬頂。</td>
+                                </tr>
+                                <tr>
+                                    <td>準備＋啟動</td>
+                                    <td>準備姿勢後依口令向六點方向跨一步並回位</td>
+                                    <td>加入分腿墊步及持拍迎球</td>
+                                    <td>重心在前腳掌，第一步不交叉打結。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.4 發球完整訓練</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>怎麼練</th>
+                                    <th>組數／目標</th>
+                                    <th>常見錯誤與修正</th>
+                                </tr>
+                                <tr>
+                                    <td>動作定型</td>
+                                    <td>無網近距離反手發球，固定持球、拍面與手指發力</td>
+                                    <td>每區連續發；先求動作一致</td>
+                                    <td>大揮拍→縮短引拍；握太緊→出手前放鬆。</td>
+                                </tr>
+                                <tr>
+                                    <td>過網高度</td>
+                                    <td>在網帶上方設視覺目標，練球貼網通過</td>
+                                    <td>以低過網且不掛網為成功</td>
+                                    <td>只求低而下網→拍面略開、向前送。</td>
+                                </tr>
+                                <tr>
+                                    <td>落點控制</td>
+                                    <td>在中線、身體、外側放置三個目標區</td>
+                                    <td>每區記錄命中率，不追求一次完美</td>
+                                    <td>只盯目標→先固定動作，再微調拍面。</td>
+                                </tr>
+                                <tr>
+                                    <td>短長一致</td>
+                                    <td>短發與偷後場使用相同準備，搭檔猜球路</td>
+                                    <td>讓接發者觸球前不易判斷</td>
+                                    <td>偷後場提前加大動作→最後一刻手指加速。</td>
+                                </tr>
+                                <tr>
+                                    <td>發球後第三拍</td>
+                                    <td>發球後立刻舉拍；搭檔隨機回放、推、挑</td>
+                                    <td>每球都必須完成第三拍與站位</td>
+                                    <td>發完看球→口令「球出、拍到、腳動」。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.5 接發球訓練</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>訓練</th>
+                                    <th>怎麼練</th>
+                                    <th>升級方式</th>
+                                    <th>重點</th>
+                                </tr>
+                                <tr>
+                                    <td>高點接短發</td>
+                                    <td>餵固定短發，接發者只練搶高點與短動作</td>
+                                    <td>加入中線、外側及身體三落點</td>
+                                    <td>拍頭高、擊球點在身前。</td>
+                                </tr>
+                                <tr>
+                                    <td>推／放二選一</td>
+                                    <td>同一準備動作，隨機推中路或放網</td>
+                                    <td>增加推直線、勾對角</td>
+                                    <td>觸球前不洩露方向。</td>
+                                </tr>
+                                <tr>
+                                    <td>接偷後場</td>
+                                    <td>發球者隨機短發或偷後場，接發者保持中性重心</td>
+                                    <td>到位下壓；不到位打平高或吊球</td>
+                                    <td>不把全部重心壓在前腳。</td>
+                                </tr>
+                                <tr>
+                                    <td>接發後跟進</td>
+                                    <td>接發後立即向前封網，搭檔補後</td>
+                                    <td>加入對手第三拍反擊</td>
+                                    <td>不是打完站著看。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.6 平球、平抽擋訓練</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>怎麼練</th>
+                                    <th>距離與節奏</th>
+                                    <th>檢核</th>
+                                </tr>
+                                <tr>
+                                    <td>對牆平抽</td>
+                                    <td>站近牆以正手、反手短動作連續抽球</td>
+                                    <td>先慢而連續，再加快；保持安全距離</td>
+                                    <td>擊球在身前，拍頭快速回中。</td>
+                                </tr>
+                                <tr>
+                                    <td>半場對抽</td>
+                                    <td>兩人隔網站中場，只打腰肩高度平球</td>
+                                    <td>先直線，再加入中路與身體</td>
+                                    <td>不用大揮拍；握拍擊球瞬間收緊。</td>
+                                </tr>
+                                <tr>
+                                    <td>正反手隨機</td>
+                                    <td>餵球者隨機打左右與身體，練習換握</td>
+                                    <td>速度由慢至快，範圍由窄至寬</td>
+                                    <td>身體球優先用反手面處理。</td>
+                                </tr>
+                                <tr>
+                                    <td>平抽＋前壓</td>
+                                    <td>一方抽出壓制球後向前一步，另一人補後</td>
+                                    <td>加入攔截與推撲</td>
+                                    <td>壓住對手才前進，不盲目前衝。</td>
+                                </tr>
+                                <tr>
+                                    <td>平抽條件賽</td>
+                                    <td>限定不能挑球；打中路或身體才得分</td>
+                                    <td>短回合、高品質、充分休息</td>
+                                    <td>保持拍頭高度與雙打站位。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.7 高遠球、挑球與後場到位</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>怎麼練</th>
+                                    <th>進階方式</th>
+                                    <th>修正口令</th>
+                                </tr>
+                                <tr>
+                                    <td>高遠球</td>
+                                    <td>先半場定點上手擊球，練側身、引拍與高擊球點</td>
+                                    <td>由半場拉到底線，再加入後退步法</td>
+                                    <td>側身到位、高點向前送。</td>
+                                </tr>
+                                <tr>
+                                    <td>網前挑球</td>
+                                    <td>搭檔手拋網前球，正反手由下向前上方送深</td>
+                                    <td>加入跨步、回位與直斜線</td>
+                                    <td>手指帶動，不只甩手腕。</td>
+                                </tr>
+                                <tr>
+                                    <td>被動後場</td>
+                                    <td>從中場啟動退到後角，先空拍再餵球</td>
+                                    <td>加入頭頂區與正手後場隨機</td>
+                                    <td>先到球後，不邊倒邊打。</td>
+                                </tr>
+                                <tr>
+                                    <td>高遠＋防守站位</td>
+                                    <td>打出高遠／挑球後兩人立即左右分開</td>
+                                    <td>加入對方殺吊回擊</td>
+                                    <td>球一起高，馬上轉守。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.8 吊球、切球與網前球訓練</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>技術</th>
+                                    <th>怎麼練</th>
+                                    <th>進階方式</th>
+                                    <th>品質標準</th>
+                                </tr>
+                                <tr>
+                                    <td>直線吊球</td>
+                                    <td>從中後場以高遠球相同準備，減速或切帶至網前</td>
+                                    <td>高遠與吊球隨機，讓對手判斷</td>
+                                    <td>準備一致、球過網後下墜。</td>
+                                </tr>
+                                <tr>
+                                    <td>對角切球</td>
+                                    <td>先在舒適擊球點定點切對角，再加入後場移動</td>
+                                    <td>與直線殺／吊混合</td>
+                                    <td>不到位不強切；切完能回位。</td>
+                                </tr>
+                                <tr>
+                                    <td>直線放網</td>
+                                    <td>手拋球至網前，以托送控制過網</td>
+                                    <td>加入跨步、回位與回放對抗</td>
+                                    <td>球貼網、拍頭留前。</td>
+                                </tr>
+                                <tr>
+                                    <td>勾對角</td>
+                                    <td>先直線放網定型，再以同樣準備改拍面勾斜線</td>
+                                    <td>直線與斜線隨機</td>
+                                    <td>高點才變線，低點先求穩。</td>
+                                </tr>
+                                <tr>
+                                    <td>抹球／抹撲</td>
+                                    <td>由手拋略高網球開始，短促橫抹；穩定後加入小幅下壓</td>
+                                    <td>左右隨機＋下一拍封網</td>
+                                    <td>動作短、不觸網、擊球後平衡。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.9 殺球完整訓練</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>怎麼練</th>
+                                    <th>升級方式</th>
+                                    <th>安全與修正</th>
+                                </tr>
+                                <tr>
+                                    <td>空揮分解</td>
+                                    <td>練側身、引拍、肘部帶拍、前臂旋轉與收拍</td>
+                                    <td>加入一步蹬轉及落地回位</td>
+                                    <td>不以肩膀硬掄；全程保持平衡。</td>
+                                </tr>
+                                <tr>
+                                    <td>半場定點殺</td>
+                                    <td>餵舒適高球，先以五至七成力量打向中路</td>
+                                    <td>穩定後增加直線、身體與角度</td>
+                                    <td>先高點下壓，再追求速度。</td>
+                                </tr>
+                                <tr>
+                                    <td>點殺</td>
+                                    <td>縮短揮拍，打身體或中路，完成後快速回拍</td>
+                                    <td>點殺與重殺交替</td>
+                                    <td>強調陡度與下一拍，不求最大力量。</td>
+                                </tr>
+                                <tr>
+                                    <td>殺球＋封網</td>
+                                    <td>一人後場殺直線，搭檔前場封回擋</td>
+                                    <td>加入殺中路、吊球及輪轉</td>
+                                    <td>前場者不回頭；後場者殺完回位。</td>
+                                </tr>
+                                <tr>
+                                    <td>移動殺球</td>
+                                    <td>從中場啟動至兩後角，先到位再殺</td>
+                                    <td>隨機餵球＋連續兩至三拍</td>
+                                    <td>失衡時改點殺或吊球，不硬重殺。</td>
+                                </tr>
+                                <tr>
+                                    <td>跳殺</td>
+                                    <td>具備穩定到位、核心與落地控制後才練</td>
+                                    <td>先小跳，再提高；落地後接下一拍</td>
+                                    <td>避免疲勞下反覆大跳；膝踝不適立即停止。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.10 雙打走位與輪轉的新手練法</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>訓練</th>
+                                    <th>怎麼練</th>
+                                    <th>口令／判斷</th>
+                                </tr>
+                                <tr>
+                                    <td>無球影子走位</td>
+                                    <td>兩人依教練指向做前後進攻、左右防守與換位</td>
+                                    <td>下壓前後；起高左右。</td>
+                                </tr>
+                                <tr>
+                                    <td>固定殺直線輪轉</td>
+                                    <td>後場殺直線並跟前，前場者退到後場</td>
+                                    <td>殺直跟、前位退。</td>
+                                </tr>
+                                <tr>
+                                    <td>挑球轉防守</td>
+                                    <td>任一人挑高後，兩人立即左右分開並舉拍</td>
+                                    <td>球起高、各半場。</td>
+                                </tr>
+                                <tr>
+                                    <td>擋網轉進攻</td>
+                                    <td>防守者擋直線網前並跟進，搭檔留後</td>
+                                    <td>擋網跟前、搭檔補後。</td>
+                                </tr>
+                                <tr>
+                                    <td>一人出場外補位</td>
+                                    <td>餵球拉至邊線，另一人先向中路收</td>
+                                    <td>先補中，再補邊。</td>
+                                </tr>
+                                <tr>
+                                    <td>三球情境</td>
+                                    <td>發球→接發→第三拍，完成隊形後停止檢查</td>
+                                    <td>每拍都問：誰前、誰後、誰管中？</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.11 八週新手進階路徑</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>週次</th>
+                                    <th>主題</th>
+                                    <th>主要產出／通關標準</th>
+                                </tr>
+                                <tr>
+                                    <td>第1週</td>
+                                    <td>握拍、球感、準備姿勢、基礎步法</td>
+                                    <td>可順暢換握、穩定顛球，完成六點一步啟動。</td>
+                                </tr>
+                                <tr>
+                                    <td>第2週</td>
+                                    <td>反手短發、網前放球、網前挑球</td>
+                                    <td>短發基本低過網；正反手能把球送到目標區。</td>
+                                </tr>
+                                <tr>
+                                    <td>第3週</td>
+                                    <td>接發推放、平抽擋</td>
+                                    <td>接發不只挑球；可維持短動作連續平抽。</td>
+                                </tr>
+                                <tr>
+                                    <td>第4週</td>
+                                    <td>高遠球、後退步法、左右防守</td>
+                                    <td>能先到位再擊球；起高後主動轉左右站位。</td>
+                                </tr>
+                                <tr>
+                                    <td>第5週</td>
+                                    <td>吊球、點殺、殺球基本動作</td>
+                                    <td>能以高點下壓，殺完保持平衡並回位。</td>
+                                </tr>
+                                <tr>
+                                    <td>第6週</td>
+                                    <td>前後進攻、殺球封網、擋網轉攻</td>
+                                    <td>理解誰前誰後，能完成一次正確攻守轉換。</td>
+                                </tr>
+                                <tr>
+                                    <td>第7週</td>
+                                    <td>發接發前三拍、推中路、基本戰術</td>
+                                    <td>每次發球前有第三拍計畫，接發後會跟進。</td>
+                                </tr>
+                                <tr>
+                                    <td>第8週</td>
+                                    <td>條件對抗、比分與失誤管理</td>
+                                    <td>在比賽中維持基本隊形，減少發接發與站位失誤。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h4>11.12 新手練習紀錄表</h4>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>項目</th>
+                                    <th>本次紀錄</th>
+                                    <th>下次修正口令</th>
+                                </tr>
+                                <tr>
+                                    <td>短發</td>
+                                    <td>成功落點、過網高度、最常失誤方向</td>
+                                    <td>球出、拍到、腳動</td>
+                                </tr>
+                                <tr>
+                                    <td>接發</td>
+                                    <td>推／放成功情形、是否無壓力挑球</td>
+                                    <td>高點推放、低點才挑</td>
+                                </tr>
+                                <tr>
+                                    <td>平抽</td>
+                                    <td>可連續回合、正反手與身體球問題</td>
+                                    <td>短動作、快回拍</td>
+                                </tr>
+                                <tr>
+                                    <td>高遠／挑球</td>
+                                    <td>深度、擊球點、擊球後站位</td>
+                                    <td>高點送深、起高轉守</td>
+                                </tr>
+                                <tr>
+                                    <td>吊球／網前</td>
+                                    <td>過網品質、是否提早露拍</td>
+                                    <td>準備一致、拍留前</td>
+                                </tr>
+                                <tr>
+                                    <td>殺球</td>
+                                    <td>落點、平衡、下一拍銜接</td>
+                                    <td>先陡後快、殺完回位</td>
+                                </tr>
+                                <tr>
+                                    <td>走位</td>
+                                    <td>碰撞、讓球、中間空檔與攻守轉換</td>
+                                    <td>先補中、喊聲早</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>十二、學習順序與能力分級</h3>
+                        <div class="note-table-wrap">
+                            <table class="note-table">
+                                <tr>
+                                    <th>階段</th>
+                                    <th>優先內容</th>
+                                    <th>通關</th>
+                                </tr>
+                                <tr>
+                                    <td>基礎</td>
+                                    <td>短發、推放接發、左右防守、平抽擋</td>
+                                    <td>可完成基本攻守轉換。</td>
+                                </tr>
+                                <tr>
+                                    <td>中階</td>
+                                    <td>第三拍、殺直線封網、擋網轉攻、勾對角</td>
+                                    <td>球路有目的。</td>
+                                </tr>
+                                <tr>
+                                    <td>進階</td>
+                                    <td>抹撲、對角切、提拉變線、主動輪轉</td>
+                                    <td>變化不破壞平衡。</td>
+                                </tr>
+                                <tr>
+                                    <td>競賽</td>
+                                    <td>對手分析、比分管理、發接發套路</td>
+                                    <td>能調整風險與節奏。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="note-section">
+                        <h3>十三、比賽前後自我檢核</h3>
+                        <p>發球是否低且有落點？發完是否舉拍？</p>
+                        <p>接發是否搶高點並跟進？</p>
+                        <p>下壓是否前後、起高是否左右？</p>
+                        <p>殺球是否有落點且能接下一拍？</p>
+                        <p>防守成功後是否向前轉攻？</p>
+                        <p>中間球規則與喊聲是否清楚？</p>
+                    </section>
+                    <section class="note-section">
+                        <h3>十四、國手級口訣總表</h3>
+                        <p>
+                            發球要低，發完要動；
+                            接發搶高，不輕易挑；
+                            下壓前後，起高左右；
+                            直線先封，中間先管；
+                            拍頭抬高，動作縮短；
+                            殺球求連續，不只求力量；
+                            被動先直線，主動再變線；
+                            擊球後回位，搭檔要補位。
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main><aside class="music-dock" aria-label="背景音樂控制"><button class="music-peek" type="button" aria-label="顯示音樂控制" aria-expanded="false">♫</button><div class="music-control"><audio id="background-music" autoplay loop preload="metadata"><source src="assets/audio/reading.mp3" type="audio/mpeg">您的瀏覽器不支援音訊播放</audio><div class="music-buttons"><button id="music-toggle" class="music-button" type="button" aria-label="播放背景音樂" aria-pressed="false"><span class="music-icon">▶</span><span class="music-label">播放</span></button><button id="loop-toggle" class="music-button music-button-secondary is-active" type="button" aria-label="關閉循環播放" aria-pressed="true"><span>↻</span><span class="loop-label">循環中</span></button></div><label class="volume-control" for="volume-slider"><span>音量</span><input id="volume-slider" type="range" min="0" max="1" step="0.05" value="0.25"></label><p id="music-status" class="music-status" aria-live="polite"></p></div></aside><button class="back-to-top" type="button">↑</button><footer class="site-footer"><div class="container footer-content"><p>© <span class="current-year"></span> Legato Li. All rights reserved.</p><a href="#main-content">Back to top ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+Legato Li Portfolio V2 使用說明
+================================
+
+一、ZIP 內容
+所有程式碼都先以 .txt 形式提供，避免下載或傳輸時被系統直接當成網頁執行。
+
+- index.html.txt
+- portfolio.html.txt
+- reading.html.txt
+- notes.html.txt
+- style.css.txt
+- script.js.txt
+- README.txt
+
+二、正式使用前如何改檔名
+請將副檔名最後的 .txt 移除：
+
+- index.html.txt       → index.html
+- portfolio.html.txt   → portfolio.html
+- reading.html.txt     → reading.html
+- notes.html.txt       → notes.html
+- style.css.txt        → style.css
+- script.js.txt        → script.js
+
+如果 Windows 未顯示副檔名，請在檔案總管選擇「檢視」→「顯示」→ 勾選「副檔名」。
+
+三、正式資料夾結構
+portfolio-site/
+├── index.html
+├── portfolio.html
+├── reading.html
+├── notes.html
+├── style.css
+├── script.js
+└── assets/
+    ├── images/
+    │   └── profile.jpg
+    └── audio/
+        └── piano.mp3
+
+四、放入個人照片
+1. 在網站資料夾建立 assets 資料夾。
+2. 在 assets 裡建立 images 資料夾。
+3. 將個人照片命名為 profile.jpg。
+4. 放到 assets/images/profile.jpg。
+5. 建議使用直式 4:5 照片，至少約 800 × 1000 像素。
+6. 若照片不存在，首頁會顯示設計過的圖片預留區，不會出現破圖。
+
+五、放入鋼琴 MP3
+1. 在 assets 裡建立 audio 資料夾。
+2. 將自己的音樂命名為 piano.mp3。
+3. 放到 assets/audio/piano.mp3。
+4. 音樂預設不會自動播放，也預設不循環。
+5. 使用者可控制播放、暫停、循環及音量。
+6. 音量和循環設定會保存在同一個瀏覽器中。
+7. 若 MP3 不存在，播放器會顯示提示，但網站其他功能仍可運作。
+
+六、VS Code 使用步驟
+1. 建立 portfolio-site 資料夾。
+2. 將六個程式碼檔案放到資料夾最外層，並移除最後的 .txt。
+3. 依照上方結構建立 assets/images 與 assets/audio。
+4. 使用 VS Code 的 File → Open Folder 開啟 portfolio-site。
+5. 建議安裝 Live Server 擴充功能。
+6. 在 index.html 上按滑鼠右鍵，選擇 Open with Live Server。
+
+七、功能檢查清單
+[ ] 首頁可看到 Legato Li、專業定位、About Me 與三張主要內容卡片。
+[ ] 個人照片正常顯示，或照片不存在時顯示預留區。
+[ ] 首頁顯示 Website established on October 20, 2026。
+[ ] Home、Portfolio、Reading、Learning Notes 均可正確切換。
+[ ] Portfolio 有五個專案，可依分類篩選。
+[ ] Reading 已收錄四本書，目錄可跳轉至各書，內容可逐本或全部展開／收合。
+[ ] 每個專案的「查看專案細節」可展開及收合。
+[ ] 手機寬度下會顯示漢堡選單，且可用 Escape 關閉。
+[ ] 音樂可播放、暫停、調整音量與切換循環。
+[ ] 頁面上方的閱讀進度條會跟著捲動。
+[ ] 向下捲動後會顯示返回頁首按鈕。
+[ ] 卡片會以低調的淡入方式進場。
+
+八、GitHub Pages 部署注意事項
+- index.html 必須在儲存庫根目錄。
+- 檔案名稱及資料夾名稱要注意英文大小寫。
+- 所有連結均使用相對路徑，適合直接部署至 GitHub Pages。
+- GitHub Pages 不會使用 .txt 內容作為網頁，因此部署前一定要移除程式檔最後的 .txt。
+
+九、公開內容提醒
+公開前請再次確認沒有放入公司名稱、客戶資料、內部系統畫面、敏感數據、帳號、資料表名稱或未經授權的文件。Portfolio 目前使用通用化描述，實際加入截圖或數據前仍需自行確認公開權限。
+
+十、多頁網站的音樂限制
+此網站是多頁架構。切換 HTML 頁面時，瀏覽器會重新載入，因此音樂會停止並回到未播放狀態。音量與循環偏好會保留，但音樂不會跨頁無縫持續播放，這是目前架構下的正常現象。
+
+
+十一、Reading 頁面本次更新
+- reading.html：完整替換，加入閱讀主線、固定目錄、四本書內容與頁尾總結。
+- style.css：加入 Reading Page V3 專屬樣式及手機版 RWD。
+- script.js：加入逐本展開／收合、全部展開／收合，以及側邊目錄目前章節提示。
+- 其他 HTML 檔案不需修改。
+
+十二、Portfolio 專案圖片背景化調整（V6）
+- portfolio.html：沿用既有 project-01.png 至 project-05.png 圖片結構，不需修改檔名。
+- style.css：專案圖片改為桌面版右側淡化背景，使用 object-fit: contain，避免圖片因 cover 而被截斷。
+- 桌面版圖片位於卡片右側約 44% 範圍，以透明度、亮度及由左向右的遮罩降低文字干擾。
+- 手機版圖片移至專案內容上方，完整顯示並由上向下淡出。
+- 建議圖片使用橫式 16:9 或接近 3:2 的 PNG/JPG，重要主體盡量放在中央至右側。
+- 本次不需修改 script.js；圖片載入失敗時仍沿用原有替代區塊。
